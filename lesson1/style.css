@@ -1,0 +1,28 @@
+.first-block{
+    background: #696969;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+
+    span{
+        color: rgb(198, 11, 245);
+    }
+}
+
+.red-block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.second-block{
+    width: 300px;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: 400;
+
+    span{
+        background-color: aqua;
+        color: #fff;
+    }
+}
