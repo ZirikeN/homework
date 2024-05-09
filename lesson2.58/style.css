@@ -1,0 +1,56 @@
+body{
+    background-color: gray;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.block{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.block:hover{
+    .txt{
+        color: gold;
+    }
+    
+    .block2{
+        visibility: visible;
+        width: 500px;
+    }
+    
+}
+
+.txt{
+    color: black;
+    font-size: 28px;
+    transition: color 0.3s .5s linear;
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.block2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: -75px;
+    left: -105px;
+    background-color: #fff;
+    visibility: hidden;
+    transition: width 0.3s linear, visibility 0.3s linear;
+}
